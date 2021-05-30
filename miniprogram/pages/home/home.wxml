@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+
+<!-- 1.card_header -->
+<w-header title="卡片类型" />
+
+<!-- 2.card_style_list -->
+<w-card-category categories='{{categories}}' />
+
+<!-- 3.card_tool -->
+<picker range='{{categories}}'
+        range-key='title'
+        class="card-tool"
+        bindchange='addClick'>
+  <w-tool-bar title="添加卡证" iconPath="/assets/add.png"/>
+</picker>

@@ -1,0 +1,10 @@
+<!--components/w-card-list/w-card-list.wxml-->
+<view class= 'idinfo-list'>
+  <view>姓名：{{idInfo.name}}</view>
+  <view>性别：{{idInfo.sex}}</view>
+  <view>名族：{{idInfo.nation}}</view>
+  <view>出生年月：{{idInfo.birth}}</view>
+  <view>地址：{{idInfo.address}}</view>
+  <view>证件号：{{idInfo.id}}</view>
+  <image src="{{idInfo.fileID}}" class="info-img" mode="widthFix" />
+</view>

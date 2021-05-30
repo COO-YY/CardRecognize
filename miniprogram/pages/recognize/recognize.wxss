@@ -1,0 +1,12 @@
+/* miniprogram/pages/recognize/recognize.wxss */
+.tool-top{
+  margin-top: 60rpx !important;
+}
+.info-message{
+  margin-top: 30rpx;
+  font-size: 36rpx;
+}
+.info-img{
+  width: 100%;
+  margin-top: 30rpx;
+}

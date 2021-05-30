@@ -1,0 +1,6 @@
+/* pages/cardlist/cardlist.wxss */
+.operate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "w-card-category":"./childCmps/w-card-category/w-card-category"
+  }
+}

@@ -1,0 +1,17 @@
+/* components/w-card-item/w-card-item.wxss */
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30rpx;
+}
+.itemImage{
+  width: 100rpx;
+}
+
+.itemTitle{
+  font-size: 40rpx;
+  margin-top: 30rpx;
+  
+}

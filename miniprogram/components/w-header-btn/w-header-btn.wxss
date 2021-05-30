@@ -1,0 +1,19 @@
+/* components/w-header-btn/w-header-btn.wxss */
+.operate-btn{
+  background-color: #d34b2c;
+  color: #fff;
+  font-size: 32rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  border-radius: 16rpx;
+  padding: 0 16rpx;
+  margin-right: 20rpx;
+}
+.operate-img{
+  width: 40rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.hover{
+  opacity: .8;
+}

@@ -1,0 +1,9 @@
+/* components/w-card-list/w-card-list.wxss */
+.info-message{
+  margin-top: 30rpx;
+  font-size: 36rpx;
+}
+.info-img{
+  width: 100%;
+  margin-top: 30rpx;
+}

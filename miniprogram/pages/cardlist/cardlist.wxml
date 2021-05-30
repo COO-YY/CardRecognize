@@ -1,0 +1,19 @@
+<!--pages/cardlist/cardlist.wxml-->
+<view class="cardList" wx:for="{{list}}" wx:key='index'>
+  <!-- 头部 -->
+  <w-header title="{{title[type]}}{{index+1}}信息">
+    <view class="operate">
+      <w-header-btn iconPath='/assets/copy.png' text = '复制' bindtap="copyClick" data-index='{{index}}' />
+      <w-header-btn iconPath='/assets/delete.png' text = '删除' bgColor='#555' bindtap="delClick" data-index='{{index}}'/>
+    </view>
+  </w-header>
+<!-- 身份证信息 -->
+  <block wx:if="{{type == 0}}" >
+    <w-idinfo-list idInfo='{{item}}' />
+  </block>
+  <!-- 银行卡信息 -->
+  <block wx:if="{{type == 1}}" >
+    <w-bankinfo-list bankInfo='{{item}}' />
+  </block>
+
+</view>

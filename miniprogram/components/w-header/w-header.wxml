@@ -1,0 +1,9 @@
+<!--components/w-header/w-header.wxml-->
+<view class="header">
+  <view class="header-text">
+    {{title}}
+  </view>
+  <view class="header-slot">
+ <slot></slot> 
+  </view>
+</view>

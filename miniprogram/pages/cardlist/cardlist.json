@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "w-header-btn":"/components/w-header-btn/w-header-btn"
+  }
+}

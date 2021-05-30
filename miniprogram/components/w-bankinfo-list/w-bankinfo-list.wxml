@@ -1,0 +1,9 @@
+<!--components/w-bankinfo-list/w-bankinfo-list.wxml-->
+<view class="bankinfo-list">
+  <view>卡号：{{bankInfo.id}}</view>
+  <view>卡类型：{{bankInfo.type}}</view>
+  <view>卡名字：{{bankInfo.name}}</view>
+  <view>银行信息：{{bankInfo.message}}</view>
+  <view>有效期：{{bankInfo.validity}}</view>
+  <image src="{{bankInfo.fileID}}" class="info-img" mode="widthFix" />
+</view>

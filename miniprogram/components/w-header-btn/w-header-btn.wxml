@@ -1,0 +1,5 @@
+<!--components/w-header-btn/w-header-btn.wxml-->
+<view class="operate-btn" style="background:{{bgColor}}" hover-class="hover" hover-stay-time="100">
+        <image src="{{iconPath}}"  class="operate-img" mode='widthFix'/>
+        <text class="operate-text" >{{text}}</text>
+</view> 
